@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Satış Sitesi Örneği</title>
+    <link rel="stylesheet" href="site.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- nav start -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">        
+  <div class="container-fluid">
+            <a class=" p-2 ps-3 fw-bold" href="anaSayfa.html">Harika Marka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-0 ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page" href="anaSayfa.html">Ana Sayfa</a>
+            </li>
+        
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="Ürünler.html">Ürünler</a>
+            </li>
+            <li class="nav-item pe-4">
+            <a class="nav-link"  href="#">Oturum Açma</a>
+            </li>
+        
+          </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Ara</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- nav end -->
+<!-- carousel start -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/id/350/2000/600" class="d-block w-100" alt="Ürün 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/239/2000/600" class="d-block w-100" alt="Ürün 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/242/2000/600" class="d-block w-100" alt="Ürün 3">
+      </div>
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+      </button>
+  </div>
+  <!-- carousel end -->
+  <main class="container text-center mt-3">
+    <div class="row">
+         <section class="col-sm-4">
+            <img src="https://picsum.photos/id/247/1200/600" class="img-thumbnail w-100" alt="Ürün X">
+          </section>
+        <section class="col-sm-8 ">
+                <h3 class="text-danger">Site Tanıtımı</h3>
+               <p class="ms-0 text-start"> Merhaba, sitemize hoşgeldiniz! Burada xx ürünleri satılmakta olup bir çok çeşit bulunmaktadır. A tipi kaliteli ve uygun fiyat ürün fırsatlarını kaçırmayın!</p><br>
+               <div class="row mt-0 mt-2 p-2">
+                 <button class="col m-0 mt-3 p-2 bg-primary text-light"><a href="Ürünler.html" class="text-light text-decoration-none m-1">Ürünler</a></button>
+                 <button class="col m-0 mt-3 p-2 bg-primary text-light"><a href="hakkımızda.html" class="text-light text-decoration-none m-1">Hakkımızda</a></button>
+                  <button class="col m-0 mt-3 p-2 bg-primary text-light"><a href="tel:000000000" class="text-light text-decoration-none m-1">İletişim</a></button>
+               </div>
+               
+        </section>
+    </div>  
+  </main>
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
